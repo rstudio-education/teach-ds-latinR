@@ -14,7 +14,7 @@ library(tidyverse)
 roster <- read_csv("03-reproducible-workflows/Teaching Data Science - GitHub names (Responses) - Form Responses 1.csv")
 
 roster <- roster %>%
-  slice(37:nrow(roster))
+  slice(c(1,37:nrow(roster)))
 
 names(roster) <- c("timestamp", "email", "name", "ghname")
 
