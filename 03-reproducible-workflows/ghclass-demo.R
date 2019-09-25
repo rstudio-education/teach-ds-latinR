@@ -7,7 +7,10 @@ library(tidyverse)
 
 # clean up ---------------------------------------------------------------------
 
-# repo_delete(org_repos("ghclass-demo"))
+repo_delete(org_repos("ghclass-demo",
+                      filter = "hw-01-"))
+
+
 
 # load roster data -------------------------------------------------------------
 
@@ -25,6 +28,8 @@ org = "ghclass-demo"
 # invite users -----------------------------------------------------------------
 
 org_invite(org = org, user = roster$ghname)
+
+org_invite(org = org, user = "ricardomayerb")
 
 # create individual assignment -------------------------------------------------
 

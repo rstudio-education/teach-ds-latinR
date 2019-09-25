@@ -56,8 +56,7 @@ toolkit.
 | 09:05 - 09:40 | [Curriculum design](/01-curriculum-design/01-curriculum-design.pdf)                      |
 | 09:40 - 10:30 | [Computing infrastructure](/02-computing-infrastructure/02-computing-infrastructure.pdf) |
 | 10:30 - 11:00 | ☕ *Coffee break*                                                                         |
-| 11:00 - 12:00 | [Reproducible workflows](/03-reproducible-workflows/03-reproducible-workflows.pdf)       |
-| 12:00 - 12:30 | [Case studies](/04-case-studies/04-case-studies.pdf)                                     |
+| 11:00 - 12:30 | [Reproducible workflows](/03-reproducible-workflows/03-reproducible-workflows.pdf)       |
 
 ## Instructor
 
